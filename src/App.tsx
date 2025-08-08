@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Onboarding from "./pages/Onboarding";
 import BuyerOnboarding from "./pages/BuyerOnboarding";
-import SellerOnboarding from "./pages/SellerOnboarding";
 import Marketplace from "./pages/Marketplace";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
@@ -23,7 +22,6 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/onboarding" element={<Onboarding />} />
           <Route path="/onboarding/buyer" element={<BuyerOnboarding />} />
-          <Route path="/onboarding/seller" element={<SellerOnboarding />} />
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/dashboard" element={<Dashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
